@@ -3,11 +3,10 @@
 # Node Exporter will be installed in [node] group
 
 [production]
-128.199.209.128 ansible_user=root
-188.166.247.204 ansible_user=root
+93.90.207.171 ansible_user=root
 
 [prometheus]
-128.199.209.128
+93.90.207.171 ansible_user=root
 
 [node]
-188.166.247.204
+93.90.207.171 ansible_user=root
