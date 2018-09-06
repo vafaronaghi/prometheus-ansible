@@ -1,15 +1,15 @@
 prometheus_node_targets:
   - 'localhost:9100'
-  - '188.166.247.204:9100'
+  - '93.90.207.171:9100'
 
 prometheus_blackbox_targets:
-  - nicluo.com
-  - www.nicluo.com
+  - cyber-sec.net
+  - www.cyber-sec.net
 
-alertmanager_smtp_smarthost: 'smtp.mailgun.org:587'
-alertmanager_smtp_from: 'hello@mg.nicluo.com'
-alertmanager_smtp_auth_username: 'hello@mg.nicluo.com'
-alertmanager_smtp_auth_password: ''
+alertmanager_smtp_smarthost: 'smtp.1und1.de:456'
+alertmanager_smtp_from: 'vafa.ronaghi@cyber-sec.net'
+alertmanager_smtp_auth_username: 'vafa.ronaghi@cyber-sec.net'
+alertmanager_smtp_auth_password: 'Startsk84ever'
 
 alertmanager_route:
   group_by: ['alertname', 'cluster', 'service']
@@ -21,4 +21,4 @@ alertmanager_route:
 alertmanager_receivers:
   - name: team-mails
     email_configs:
-    - to: info@nicluo.com
+    - to: vafa.ronaghi@cyber-sec.net
